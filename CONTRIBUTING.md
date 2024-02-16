@@ -42,15 +42,15 @@ If you’d like to use the repository from source, you can either install from g
 To install via git:
 
 ```bash
-npm install --save git+ssh://git@github.com:meorphis-test/test-repo-7.git
+npm install --save git+ssh://git@github.com:meorphis-test/test-repo-8.git
 ```
 
 Alternatively, to link a local copy of the repo:
 
 ```bash
 # Clone
-git clone https://www.github.com/meorphis-test/test-repo-7
-cd test-repo-7
+git clone https://www.github.com/meorphis-test/test-repo-8
+cd test-repo-8
 
 # With yarn
 yarn link
@@ -99,7 +99,7 @@ the changes aren't made through the automated pipeline, you may want to make rel
 
 ### Publish with a GitHub workflow
 
-You can release to package managers by using [the `Publish NPM` GitHub action](https://www.github.com/meorphis-test/test-repo-7/actions/workflows/publish-npm.yml). This will require a setup organization or repository secret to be set up.
+You can release to package managers by using [the `Publish NPM` GitHub action](https://www.github.com/meorphis-test/test-repo-8/actions/workflows/publish-npm.yml). This will require a setup organization or repository secret to be set up.
 
 ### Publish manually
 
